@@ -154,6 +154,10 @@ body {
   margin: 0 0 24px;
 }
 
+.networks {
+  margin: 0px 20px; 
+}
+
 .button {
   padding: 6px 20px;
   display: inline-block;
