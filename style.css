@@ -218,9 +218,14 @@
 }
 
 .light-theme .social {
-display: flex;
-align-items: center;
-justify-content: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 70px;
+ height: 70px;
+}
+
+.light-theme .social img {
 max-width: 100%;
 }
 
@@ -453,8 +458,13 @@ max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  width: 70px;
+  height: 70px;
 }
+
+.dark-theme .social img {
+  max-width: 100%;
+  }
 
 .dark-theme .footer-email {
   padding-left: 30px;
