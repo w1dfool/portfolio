@@ -217,6 +217,13 @@
   justify-content: flex-start;
 }
 
+.light-theme .social {
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+}
+
 .light-theme .footer-email {
   padding-left: 30px;
   background-image: url("img/BLicon-email-footer.svg");
@@ -440,6 +447,13 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.dark-theme .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .dark-theme .footer-email {
